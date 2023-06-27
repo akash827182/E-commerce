@@ -1134,9 +1134,11 @@ button.normal {
 }
 #newsletter button {
 	padding: 3px 6px;
-	width: 100px;
-	
+	width: 100px;	
 }
+footer .row1 {
+       display: none;  
+ }
 footer .row1 a{
     bottom: 10px;
 }
