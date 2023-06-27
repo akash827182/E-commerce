@@ -969,10 +969,14 @@ footer .row1 .row1_icon {
 @media (max-width:480px){
     #main {
         height: 45vh;
-        padding: 10px 20px;
+        padding: 10px 10px;
+        background-position: top 20% right 100%;
     }
     .section-p1{
-        padding-right: 20px;
+        padding: 10px;
+    }
+    footer {
+        padding: 4px 10px 8px 10px;
     }
     
     #main h4 {
@@ -980,8 +984,8 @@ footer .row1 .row1_icon {
         font-size: 18px;
     }
     h2 {
-        font-size: 30px;
-        
+        font-size: 26px;
+        line-height: 40px;
     }
     #main h1 {
         color: #088178;
@@ -1008,10 +1012,14 @@ footer .row1 .row1_icon {
         width: 120px;
         margin-bottom: 2px;
     }
+    #product1 .pro-container {
+        justify-content: center;
+        margin: 2px;
+    }
     #product1 .pro {
         width: 18%;
         min-width: 150px;
-        margin: 10px 10px;
+        margin: 5px;
         padding: 12px;
     }
     #product1 .pro .des {
@@ -1168,6 +1176,10 @@ footer .row2 p {
 	font-size: 11px;
 	margin: 4px 0px;
 }
+footer .row4 .btn .btn2 i {
+	font-size: 12px;
+	margin: 2px;
+}
 footer .row3 h4 {
 	font-size: 13px;
 }
@@ -1187,13 +1199,24 @@ footer .row4 h4 {
 }
 footer .row4 .btn .btn1 i {
 	font-size: 15px;
-	padding: 20px 4px;
+	padding: 4px 4px;
+}
+footer .row4 .btn .btn1 .text p {
+	font-size: 8px;
+	
+	margin: 0px;
 }
 footer .row4 .btn .btn1 .text h4 {
 	display: none;
 }
 footer .row4 .btn .btn1 {
-	padding: 1px 6px;
+	padding: 5px;
+}
+footer .row4 p {
+	margin: 2px;
+    font-size: 10px;
+    font-weight: 600;
+  }
 }
 .copyright i {
 	margin-right: 6px;
@@ -1204,4 +1227,3 @@ footer .row4 .btn .btn1 {
     font-size: 10px;
 }
    
-}
