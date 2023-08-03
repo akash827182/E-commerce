@@ -25,14 +25,14 @@ h6{
 p{
     font-size: 16px;
     color: #465b52;
-    margin: 15px 0 20px 0;
+    margin: 15px 0 10px 0;
 }
 .section-p1{
-    padding: 40px 80px;
+    padding: 30px 80px;
 
 }
 .section-m1{
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 button.normal{
@@ -1137,6 +1137,7 @@ button.normal {
 	width: 100px;
 	
 }
+
 footer .row1 a{
     bottom: 10px;
 }
@@ -1236,3 +1237,12 @@ footer .row4 p {
        
     }
 }
+
+
+
+
+                                            /* // SHOP PAGE  */
+
+section-s1{
+   padding: 35px 80px;
+} 
